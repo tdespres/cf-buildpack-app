@@ -1,0 +1,17 @@
+{
+  "name": "cf-buildpack-app",
+  "version": "1.0.0",
+  "description": "buildpack test",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "theo.despres@teamwork.net",
+  "license": "ISC",
+  "engines": {
+	"node": ">=10.10.0"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}

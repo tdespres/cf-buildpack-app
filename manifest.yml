@@ -1,0 +1,6 @@
+---
+applications:
+- name: cf-buildpack-app
+  host: cf-buildpack-app
+  memory: 128M
+  buildpack: https://github.com/cloudfoundry/nodejs-buildpack.git
